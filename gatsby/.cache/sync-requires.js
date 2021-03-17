@@ -5,13 +5,14 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---src-pages-404-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/master-gatsby/gatsby/src/pages/404.js"))),
-  "component---src-pages-beers-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/master-gatsby/gatsby/src/pages/beers.js"))),
-  "component---src-pages-index-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/master-gatsby/gatsby/src/pages/index.js"))),
-  "component---src-pages-order-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/master-gatsby/gatsby/src/pages/order.js"))),
-  "component---src-pages-pizzas-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/master-gatsby/gatsby/src/pages/pizzas.js"))),
-  "component---src-pages-slicemasters-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/master-gatsby/gatsby/src/pages/slicemasters.js"))),
-  "component---src-templates-pizza-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/master-gatsby/gatsby/src/templates/Pizza.js"))),
-  "component---src-templates-slicemaster-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/master-gatsby/gatsby/src/templates/Slicemaster.js")))
+  "component---cache-dev-404-page-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/gatsby-pizza-shop/gatsby/.cache/dev-404-page.js"))),
+  "component---src-pages-404-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/gatsby-pizza-shop/gatsby/src/pages/404.js"))),
+  "component---src-pages-beers-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/gatsby-pizza-shop/gatsby/src/pages/beers.js"))),
+  "component---src-pages-index-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/gatsby-pizza-shop/gatsby/src/pages/index.js"))),
+  "component---src-pages-order-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/gatsby-pizza-shop/gatsby/src/pages/order.js"))),
+  "component---src-pages-pizzas-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/gatsby-pizza-shop/gatsby/src/pages/pizzas.js"))),
+  "component---src-pages-slicemasters-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/gatsby-pizza-shop/gatsby/src/pages/slicemasters.js"))),
+  "component---src-templates-pizza-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/gatsby-pizza-shop/gatsby/src/templates/Pizza.js"))),
+  "component---src-templates-slicemaster-js": (preferDefault(require("/Users/shiyuanchen/Desktop/gatsby-project/gatsby-pizza-shop/gatsby/src/templates/Slicemaster.js")))
 }
 

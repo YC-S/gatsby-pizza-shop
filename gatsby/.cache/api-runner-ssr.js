@@ -1,14 +1,14 @@
 var plugins = [{
-      plugin: require('/Users/shiyuanchen/Desktop/gatsby-project/master-gatsby/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/shiyuanchen/Desktop/gatsby-project/gatsby-pizza-shop/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/shiyuanchen/Desktop/gatsby-project/master-gatsby/gatsby/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/shiyuanchen/Desktop/gatsby-project/gatsby-pizza-shop/gatsby/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/shiyuanchen/Desktop/gatsby-project/master-gatsby/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      plugin: require('/Users/shiyuanchen/Desktop/gatsby-project/gatsby-pizza-shop/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
       options: {"plugins":[],"projectId":"owjudf36","dataset":"production","watchMode":true,"token":"sk2UMqxHCFRxTL3yldbhD6LevzFThvSX9VwXIybAvlZrvKzDNu4ZxOxtXNRZqno9IbQUnFxHkhhM4gqXOS3nWSMMT3DDtfBh7BYwX3JrjHQ4Km2CyuYQ1Zsc4Bz7BHiUhfibqY9BZqGOLJDyk1DznhX9uo3a48zQ9YvDJvWSG7ukNUF6FJXF"},
     },{
-      plugin: require('/Users/shiyuanchen/Desktop/gatsby-project/master-gatsby/gatsby/gatsby-ssr'),
+      plugin: require('/Users/shiyuanchen/Desktop/gatsby-project/gatsby-pizza-shop/gatsby/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

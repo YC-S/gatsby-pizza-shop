@@ -75,7 +75,6 @@ const ToppingsFilter = ({ activeTopping }) => {
 
   // Count how many pizzas are in each topping
   const toppingsWithCounts = countPizzasInToppings(pizzas.nodes)
-  console.log(toppingsWithCounts)
   // Loop over the list of toppings
 
   return (

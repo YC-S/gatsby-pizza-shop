@@ -54,7 +54,6 @@ export default function useLatestData() {
         // when the component loads, fetch the data
       })
       .catch((err) => {
-        console.log('SHOOOOT')
         console.log(err)
       })
   }, [])

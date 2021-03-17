@@ -59,7 +59,6 @@ export default {
       topping3: 'toppings.3.name',
     },
     prepare: ({ title, media, ...toppings }) => {
-      console.log({ title, media, toppings });
       const tops = Object.values(toppings).filter(Boolean);
       // 1. Filter undeined toppings out
       // 2. return the preview object for the pizza
